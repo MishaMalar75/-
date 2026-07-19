@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(57, 59, 63);
+    font-family: Arial, sans-serif;
+}
+
+.demo {
+    color: #d0d0d0;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 8px;
+    opacity: 0;
+    transform: translateY(-10px);
+    filter: blur(4px);
+}
+
+.demo.play {
+    animation: slideFromTop 2s ease forwards;
+}
+
+@keyframes slideFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+        filter: blur(2px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+.btn-1 {
+    height: 40px;
+    width: 80px;
+    border: 2px solid #5B6BD6;
+    border-radius: 8px;
+    transition: background-color 0.9s ease-in-out, box-shadow 0.9s ease-in-out, transform 0.9s;
+    color: rgb(2, 78, 209);
+    background-color: rgb(57, 59, 63);
+    cursor: pointer
+}
+
+.btn-1:hover {
+    background-color: #2b3f699e;
+    box-shadow: 0px 0px 10px #507cda;
+    transform: translateY(-1px);
+}
+
+.btn-2 {
+    height: 40px;
+    width: 80px;
+    border: 2px solid #463fcb;
+    border-radius: 8px;
+    transition: background-color 0.9s ease-in-out, box-shadow 0.9s ease-in-out, transform 0.9s;
+    color: rgb(38, 0, 255);
+    background-color: rgb(57, 59, 63);
+    cursor: pointer
+}
+
+.btn-2:hover {
+    background-color: #1f19627a;
+    box-shadow: 0px 0px 10px #3233a3;
+    transform: translateY(-1px);
+}
+
+.btn-3 {
+    height: 40px;
+    width: 80px;
+    border: 2px solid #85560e;
+    border-radius: 8px;
+    transition: background-color 0.9s ease-in-out, box-shadow 0.9s ease-in-out, transform 0.9s;
+    color: rgb(159, 102, 5);
+    background-color: rgb(57, 59, 63);
+    cursor: pointer
+}
+
+.btn-3:hover {
+    background-color: #462e098e;
+    box-shadow: 0px 0px 10px #955803;
+    transform: translateY(-1px);
+}
+
+
+.btn-4 {
+    height: 40px;
+    width: 80px;
+    border: 2px solid #7a0500;
+    border-radius: 8px;
+    transition: background-color 0.9s ease-in-out, box-shadow 0.9s ease-in-out, transform 0.9s;
+    ;
+    color: #9f0202;
+    background-color: rgb(57, 59, 63);
+    cursor: pointer
+}
+
+.btn-4:hover {
+    background-color: #76050166;
+    box-shadow: 0px 0px 10px #7e0101e7;
+    transform: translateY(-1px);
+}
+
+.btn-5 {
+    height: 40px;
+    width: 80px;
+    border: 2px solid #019f16a5;
+    border-radius: 8px;
+    color: #019f16a5;
+    transition: background-color 0.9s ease-in-out, box-shadow 0.9s ease-in-out, transform 0.9s;
+    background-color: rgba(57, 59, 63);
+    cursor: pointer
+}
+
+.btn-5:hover {
+    background-color: #01761a53;
+    box-shadow: 0px 0px 15px #147e01e7;
+    transform: translateY(-1px);
+}
+.btns{
+    position: 10px;
+}
