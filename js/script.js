@@ -20,6 +20,9 @@ function MyFunction1() {
     x[3].height = "60";
     x[3].width = "100";
     x[4].src = "images/morphling.png";
+    x[4].addEventListener('click', function () {
+        window.open('https://github.com/MishaMalar75', '_blank');
+    });
     x[4].height = "60";
     x[4].width = "100";
     x[5].style.border = '2px solid #670000'
