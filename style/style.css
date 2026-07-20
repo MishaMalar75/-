@@ -116,6 +116,12 @@ body {
     box-shadow: 0px 0px 15px #147e01e7;
     transform: translateY(-1px);
 }
-.btns{
-    position: 10px;
+
+.btn-1,
+.btn-2,
+.btn-3,
+.btn-4,
+.btn-5 {
+    background: transparent;
+    background-clip: padding-box;
 }
